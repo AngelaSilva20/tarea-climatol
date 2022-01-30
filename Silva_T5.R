@@ -14,7 +14,7 @@ diagwl(datcli, "Estacion campo de marte", 80, "2017", mlab="xd", pcol = "orange"
 
 ## 2. Recrea minuciosamente el siguiente diagrama de la rosa de los vientos (pista: col=rainbow(8)).
 data(windfr)
-rosavent(windfr,fnum=4,fint=4,flab=2,ang=3*pi/8,col=rainbow(8),uni="m/s")
+rosavent(windfr,fnum=6,fint=2,flab=1,ang=3*pi/8,col=rainbow(8),uni="km/s")
 
 #NIVEL 2 
 ## 3. Convertir la data diaria de tmax en una data de medias mensuales. Posteriormente, homogeneizar dichos
